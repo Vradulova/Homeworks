@@ -1,0 +1,19 @@
+using System;
+
+namespace CSharpProject
+{
+    class DeclareVariables
+    {
+        static void Main(string[] args)
+        {
+
+            byte a = 97; //0 to 255
+            short c = -115; //-32,768 to 32,767
+            ushort d = 52130; //0 to 65,535
+            int e = -10000; //-2,147,483,648 to 2,147,483,647
+            uint f = 4825932; //0 to 4,294,967,295
+
+            Console.WriteLine("{0}\n{1}\n{2}\n{3}\n{4}\n", a, c, d, e, f);
+        }
+    }
+}
