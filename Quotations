@@ -1,0 +1,10 @@
+using System;
+
+
+class Quotations
+{
+    static void Main()
+    {
+        Console.WriteLine("The \"use\" of quotations causes difficulties");
+    }
+}
